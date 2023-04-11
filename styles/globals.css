@@ -1,0 +1,87 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lexend Semibold';
+  src: url('/fonts/Lexend-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+
+
+}
+@font-face {
+  font-family: 'Lexend Bold';
+  src: url('/fonts/Lexend-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  
+}
+@font-face {
+  font-family: 'Lexend Medium';
+  src: url('/fonts/Lexend-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  
+}
+@font-face {
+  font-family: 'Lexend light';
+  src: url('/fonts/Lexend-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  
+}
+@font-face {
+  font-family: 'Lexend Regular';
+  src: url('/fonts/Lexend-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+ font-family:'Lexend', sans-serif;
+ 
+
+}
+
+a {
+ color: black ;
+  text-decoration: none !important;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    /* background: black; */
+  }
+}
+/* 
+.navHover:hover .textHover{
+  color: yellow !important;
+}
+.navHover:hover .mark{
+  background-color: yellow !important;
+} */
